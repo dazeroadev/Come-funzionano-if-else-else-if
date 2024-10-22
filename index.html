@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<head>
+	<title>If, else, else if</title>
+</head>
+
+<body>
+
+	<h1>If, else ed else if</h1>
+
+	<p>Marco <span class="response"></span></p>
+
+	<script>
+
+		const response = document.querySelector('.response');
+
+		const age = 20;
+
+		if (age >= 18) {
+			response.textContent = "può guidare l'auto"
+		} else if (age >= 14) {
+			response.textContent = "può guidare il motorino"
+		} else {
+			response.textContent = "non può guidare"
+		}
+
+	</script>
+
+</body>
+
+</html>
